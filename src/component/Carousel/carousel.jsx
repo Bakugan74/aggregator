@@ -27,7 +27,16 @@ class Courusel extends Component {
                 itemsToScroll={1}
                 swipeTreshold={80}
                 speed={500}
-                delay={10}
+                forwardBtnProps={{
+                    style:{
+                        display: "none"
+                        }
+                }}
+                backwardBtnProps={{
+                    style:{
+                    display: "none"
+                    }
+                }}
                 dotsNav={{
                     show: true,
                     itemBtnProps: {

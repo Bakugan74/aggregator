@@ -1,6 +1,6 @@
 import React from "react";
 import Courusel from "./component/Carousel/carousel";
-import Header1 from "./component/Header copy/Header";
+import Header1 from "./component/Header/Header";
 
 
 // Whatever you render out in the Slider will be draggable 'slides'

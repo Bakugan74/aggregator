@@ -41,9 +41,9 @@ class Courusel extends Component {
                     show: true,
                     itemBtnProps: {
                         style: {
-                            height: 13,
-                            width: 13,
-                            borderRadius: "50%",
+                            height: 3,
+                            width: 30,
+                            // borderRadius: "50%",
                             border: 10,
                             margin: 4,
                             opacity: 1
@@ -51,9 +51,9 @@ class Courusel extends Component {
                     },
                     activeItemBtnProps: {
                         style: {
-                            height: 13,
-                            width: 13,
-                            borderRadius: "50%",
+                            height: 3,
+                            width: 30,
+                            // borderRadius: "50%",
                             border: 0,
                             background: "rgba(75, 100, 189, 1)",
                             margin: 4,

@@ -1,25 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600;800&display=swap');
 
+/* Стили для карусели */
 .slide1 {
     width: 100vw;
-    height: 479px;
-    background-image: url(../../img/iIoDaodhYMk.jpg);
-    background-size: cover;
+    height: 648px;
+    background-image: url(../../img/image44.png);
+    background-size:cover;
     background-repeat: no-repeat;
 }
 
 .slide2 {
     width: 100vw;
-    height: 479px;
-    background-image: url(../../img/iIoDaodhYMk.jpg);
+    height: calc(90% + 150px);
+    background-image: url(../../img/image44.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .slide3 {
     width: 100vw;
-    height: 479px;
-    background-image: url(../../img/iIoDaodhYMk.jpg);
+    height: calc(90% + 150px);
+    background-image: url(../../img/image44.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -44,66 +45,52 @@
     }
 
 }
-
-button {
-    opacity: 0;
-}
-
+/* Стили для текста  */
 .slide_info {
     position: relative;
-    top: 80px;
-    margin-left: 10%;
-    width: 646px;
+    top: 140px;
+    margin-left: 15%;
+    width: calc(40% - 20px);
     height: 141px;
-
 }
-
 
 .slide_info p {
     font-family: 'Raleway';
     font-style: normal;
-    font-weight: 300;
-    font-size: 40px;
-    color: rgba(255, 255, 255, 1);
-    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    letter-spacing: 0em;
+    font-weight: 600;
+    line-height: 42px;
+    font-size: 35.74px;
+    color: rgba(135, 113, 97, 1);
 }
-
-.blue_text {
-    font-family: Raleway;
-    font-size: 40px;
-    font-weight: 900;
-    line-height: 47px;
-    color: rgba(158, 210, 249, 1);
-}
-
-.bold_text {
-    font-family: Raleway;
-    font-size: 40px;
+.slide_info p b{
     font-weight: 800;
-    line-height: 47px;
+    color: rgba(100, 84, 72, 1);
 }
 
 .AI_text {
     position: relative;
-    top: 110px;
-    margin-left: 10%;
-    width: 703px;
+    top: 190px;
+    margin-left: 15%;
+    width: calc(35% - 20px);
     height: 60px;
 }
 
-.AI_text_item {
-    font-family: Raleway;
-    font-size: 25px;
-    font-weight: 200;
-    color: rgba(255, 255, 255, 1);
+.AI_text p{
+    font-family: 'Bahnschrift';
+    font-style: normal;
+    font-weight: 250;
+    font-size: 25.5319px;
+    line-height: 31px;
+    color: #FFFFFF; 
 }
 
 .button_item {
     position: relative;
-    top: 115px;
-    margin-left: 10%;
-    width: 168px;
-    height: 57px;
+    top: 40%;
+    margin-left: 15%;
+    width: 188px;
+    height: 62px;
     background: #FFFFFF;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
     border-radius: 30px;
@@ -112,8 +99,8 @@ button {
 
 .button_item p {
     position: relative;
-    left: 17px;
-    top: 15px;
+    left: 25px;
+    top: 19px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -150,13 +137,6 @@ button {
         color: rgba(158, 210, 249, 1);
     }
 
-    .bold_text {
-        font-family: Raleway;
-        font-size: 24px;
-        font-weight: 800;
-        line-height: 28px;
-    }
-
     .AI_text {
         position: relative;
         top: 500px;
@@ -165,34 +145,7 @@ button {
         height: 71px;
     }
 
-    .AI_text_item {
-        font-family: Raleway;
-        font-size: 16px;
-        font-weight: 200;
-        color: rgba(255, 255, 255, 1);
-    }
 
-    .button_item {
-        position: relative;
-        top: 530px;
-        margin:0 auto;
-        width: 168px;
-        height: 57px;
-        background: #FFFFFF;
-        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
-        border-radius: 30px;
-        transition: .3s;
-    }
 
-    .button_item p {
-        position: relative;
-        left: 17px;
-        top: 15px;
-        font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 20px;
-        color: #000000;
-    }
 
 }

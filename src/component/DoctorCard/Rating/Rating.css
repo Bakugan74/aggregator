@@ -1,0 +1,13 @@
+.rating {
+    display: flex;
+  }
+  
+  .rating i{
+    font-size: 20px; /* Размер звезд */
+    margin-right: 5px; /* Расстояние между звездами */
+    width: 20px;
+    height: 20px;
+  }
+.fafa-star{
+  background-image: url(/public/logo192.png);  
+}

@@ -8,11 +8,11 @@ let Header1 = () => {
                 <input type="checkbox" id="nav-toggle" className={s.nav_toggle}></input>
                 <div className={s.logo}><strong>Logo</strong></div>
                 <ul className={s.links}>
-                    <li><a href="#home">Услуги</a></li>
-                    <li><a href="#about">Врачи</a></li>
-                    <li><a href="#work">Клиники</a></li>
-                    <li><a href="#projects">Отзывы</a></li>
-                    <li><a href="#contact">Статьи</a></li>
+                    <li><a href="1">Услуги</a></li>
+                    <li><a href="2">Врачи</a></li>
+                    <li><a href="3">Клиники</a></li>
+                    <li><a href="4">Отзывы</a></li>
+                    <li><a href="5">Статьи</a></li>
                     <li>
                         <div className={s.button_item}>
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

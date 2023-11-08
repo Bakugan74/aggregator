@@ -5,7 +5,7 @@ nav {
     right: 0;
     top: 0;
     font-family: 'Montserrat', 'sans-serif';
-    height: 100px;
+    height: 110px;
     background-color: rgba(0, 0, 0, 0);
     padding: 0 8%;
 
@@ -21,7 +21,7 @@ nav .logo {
     float: left;
     width: auto;
     height: 100%;
-    margin-left: 10%;
+    margin-left: 8%;
     display: flex;
     align-items: center;
     font-size: 24px;
@@ -29,11 +29,11 @@ nav .logo {
 }
 
 nav .links {
-    float: left;
+    float: center;
+    margin: 0;
     padding: 0;
-    /* margin: 0 10% 0; */
-    width: 60%;
     height: 100%;
+    margin-left: 16%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -47,16 +47,19 @@ nav .links a {
     text-decoration: none;
     color: black;
     font-family: 'Raleway';
-    font-size: 20px;
-    text-align: left;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
     margin-left: 40px;
+    letter-spacing: 0em;
     font-weight: 400;
 }
+
 
 .button_item{
     user-select: none;
     display: flex;
-    margin-left: 100%;
+    margin-left: 300%;
     width: 128px;
     height: 44px;
     background-color:rgba(197, 230, 255, 1);
@@ -72,10 +75,6 @@ nav .links a {
     font-family: 'Raleway';
     margin: 10px 0 0 14px;
     font-weight: 400;
-}
-
-nav .links a:hover {
-    color: black;
 }
 
 nav .links a::before {

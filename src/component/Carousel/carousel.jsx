@@ -28,20 +28,20 @@ class Courusel extends Component {
                 swipeTreshold={80}
                 speed={500}
                 forwardBtnProps={{
-                    style:{
+                    style: {
                         display: "none"
-                        }
+                    }
                 }}
                 backwardBtnProps={{
-                    style:{
-                    display: "none"
+                    style: {
+                        display: "none"
                     }
                 }}
                 dotsNav={{
                     show: true,
                     itemBtnProps: {
                         style: {
-                            height: 3,
+                            height: 2,
                             width: 30,
                             // borderRadius: "50%",
                             border: 10,
@@ -51,7 +51,7 @@ class Courusel extends Component {
                     },
                     activeItemBtnProps: {
                         style: {
-                            height: 3,
+                            height: 2,
                             width: 30,
                             // borderRadius: "50%",
                             border: 0,
@@ -64,32 +64,32 @@ class Courusel extends Component {
             >
                 <div className={s.slide1}>
                     <div className={s.slide_info}>
-                        <p><span className={s.blue_text}>Сомневаетесь</span>, что <span className={s.bold_text}>потратите деньги</span> и <span className={s.bold_text}>не понравится</span> новая <span className={s.bold_text}>внешность?</span></p>
+                        <p>Сомневаетесь, что потратите деньги и не понравится <b>новая внешность?</b></p>
                     </div>
                     <div className={s.AI_text}>
-                        <span className={s.AI_text_item}>Искусственный интеллект поможет Вам, просто загрузите свою фотографию и посмотрите на нового себя!</span>
+                        <p>Искусственный интеллект поможет Вам, просто загрузите свою фотографию и посмотрите на нового себя!</p>
                     </div>
                     <div className={s.button_item} id='surname'>
                         <p>Попробовать</p>
                     </div>
                 </div>
-                <div className={s.slide2}>
-                <div className={s.slide_info}>
-                        <p><span className={s.blue_text}>Сомневаетесь</span>, что <span className={s.bold_text}>потратите деньги</span> и <span className={s.bold_text}>не понравится</span> новая <span className={s.bold_text}>внешность?</span></p>
+                <div className={s.slide1}>
+                    <div className={s.slide_info}>
+                    <p>Сомневаетесь, что потратите деньгии не понравится <b>новая внешность?</b></p>
                     </div>
                     <div className={s.AI_text}>
-                        <span className={s.AI_text_item}>Искусственный интеллект поможет Вам, просто загрузите свою фотографию и посмотрите на нового себя!</span>
+                        <p>Искусственный интеллект поможет Вам, просто загрузите свою фотографию и посмотрите на нового себя!</p>
                     </div>
                     <div className={s.button_item} id='surname'>
                         <p>Попробовать</p>
                     </div>
                 </div>
-                <div className={s.slide3}>
-                <div className={s.slide_info}>
-                        <p><span className={s.blue_text}>Сомневаетесь</span>, что <span className={s.bold_text}>потратите деньги</span> и <span className={s.bold_text}>не понравится</span> новая <span className={s.bold_text}>внешность?</span></p>
+                <div className={s.slide1}>
+                    <div className={s.slide_info}>
+                    <p>Сомневаетесь, что потратите деньгии не понравится <b>новая внешность?</b></p>
                     </div>
                     <div className={s.AI_text}>
-                        <span className={s.AI_text_item}>Искусственный интеллект поможет Вам, просто загрузите свою фотографию и посмотрите на нового себя!</span>
+                        <p>Искусственный интеллект поможет Вам, просто загрузите свою фотографию и посмотрите на нового себя!</p>
                     </div>
                     <div className={s.button_item} id='surname'>
                         <p>Попробовать</p>

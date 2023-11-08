@@ -1,7 +1,7 @@
 import React from "react";
 import Courusel from "./component/Carousel/carousel";
 import Header1 from "./component/Header/Header";
-import DoctorCard from "./component/DoctorCard/DoctorCard";
+// import DoctorCard from "./component/DoctorCard/DoctorCard";
 import Articles from "./component/articles/Articles"
 
 
